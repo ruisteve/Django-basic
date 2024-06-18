@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def blog(request):
-    return render(request, 'blog/index.html')
+    return render(request, "blog/index.html")
