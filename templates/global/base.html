@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+{% include 'global/partials/head.html' %}
+{% include 'global/partials/menu.html' %}
 <body>
-  <h1>{% block texto %} BASE {% endblock texto %}</h1>
+  <h1>{% block texto %}{% endblock texto %}</h1>
 </body>
 </html>
