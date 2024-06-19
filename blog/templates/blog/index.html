@@ -1,8 +1,10 @@
 {% extends 'global/base.html' %}
 
+{% if text %}
 {% block texto %}
-    BLOG!
+    {{ text }}
 {% endblock texto %}
+{% endif %}
 
 {% block posts %}
     {% for post in posts %}
