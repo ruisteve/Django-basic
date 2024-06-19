@@ -1,5 +1,12 @@
-{% include 'global/base.html' %}
+{% extends 'global/base.html' %}
 
 {% block texto %}
     BLOG!
 {% endblock texto %}
+
+{% block posts %}
+    {% include 'global/partials/post_block.html' %}
+    {% include 'global/partials/post_block.html' %}
+    {% include 'global/partials/post_block.html' %}
+    {% include 'global/partials/post_block.html' %}
+{% endblock posts %}

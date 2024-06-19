@@ -4,4 +4,4 @@ from home.views import home
 
 app_name = "home"
 
-urlpatterns = [path("", home, name="home")]
+urlpatterns = [path("", home, name="index")]
