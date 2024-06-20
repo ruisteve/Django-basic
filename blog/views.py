@@ -25,6 +25,4 @@ def post(request, id):
     post_data = get_post_data(id)
     if not post_data:
         raise Http404("Post does not exist")
-    return render(
-        request, "blog/index.html", {"text": f"POST {id}", "posts": [post_data]}
-    )
+    return render(request, "blog/post.html", {"text": f"POST {id}", "post": post_data})
