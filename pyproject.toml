@@ -11,6 +11,7 @@ django = "^5.0.6"
 black = "^24.4.2"
 isort = "^5.13.2"
 requests = "^2.32.3"
+whitenoise = "^6.7.0"
 
 
 [tool.poetry.group.dev.dependencies]

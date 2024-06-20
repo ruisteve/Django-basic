@@ -15,6 +15,11 @@ body {
     background: #f1f1f1;
 }
 
+a {
+    color: blue;
+
+}
+
 .content {
     display: grid;
     gap: 1.5rem;
@@ -25,6 +30,22 @@ body {
     background: #fff;
     padding: 1.5rem;
     box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    background: black;
+    padding: 1.5rem;
+}
+
+.menu__links {
+    display: flex;
+    list-style: none;
+}
+
+.menu__links a {
+    color: #fff;
+    padding: 1.5rem;
+    display: block;
 }
 
 @media (max-width: 600px) {
